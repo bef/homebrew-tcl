@@ -3,7 +3,9 @@ class Fancytest < Formula
   homepage "https://github.com/bef/fancytest"
   url "https://github.com/bef/fancytest/archive/refs/tags/v0.1.tar.gz"
   sha256 "e0b10d813dbe7ed2e271711f01708dd3c77ee1298e115310df4774ccc9b21032"
-  
+
+  depends_on "tcl-tk"
+
   def install
     puts "#{prefix} #{lib} #{name} #{version}"
     pkgdir = "#{lib}/#{name}#{version}"
