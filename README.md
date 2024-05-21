@@ -1,4 +1,6 @@
-# Bef Tcl
+# BeF's Tcl Formulae
+
+See Formula directory for the list of available formulae.
 
 ## How do I install these formulae?
 
