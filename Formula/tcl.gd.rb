@@ -1,9 +1,8 @@
 class TclGd < Formula
   desc "Tcl interface to the GD drawing library"
   homepage "https://flightaware.github.io/tcl.gd/"
-  ## releases: https://github.com/flightaware/tcl.gd/releases
-  url "https://github.com/flightaware/tcl.gd/archive/refs/tags/v1.3.1.tar.gz"
-  sha256 "00d048d6084e3cf9cb68b4540402d51ceab93b423f55a1741d6c3fb978385cba"
+  url "https://github.com/bef/tcl.gd.git", revision: "9e6b6cf330645da436744e5d4fac6c9c4b4e572c"
+  version "1.3.1"
 
   depends_on "autoconf" => :build
   depends_on "gd"
